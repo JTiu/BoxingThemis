@@ -20,6 +20,8 @@ namespace BoxingThemis.Controllers
 
         public IActionResult Index()
         {
+            BoxingMatch match = new BoxingMatch();
+
             return View();
         }
 
